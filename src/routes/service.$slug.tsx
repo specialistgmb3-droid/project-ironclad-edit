@@ -8,7 +8,7 @@ import { FlooringReplacementPage } from "@/pages/FlooringReplacementPage";
 import { CommercialEpoxyFlooringPage } from "@/pages/CommercialEpoxyFlooringPage";
 import { GarageEpoxyFlooringPage } from "@/pages/GarageEpoxyFlooringPage";
 
-export const Route = createFileRoute("/services/$slug")({
+export const Route = createFileRoute("/service/$slug")({
   head: ({ params }) => {
     const slug = cleanServiceSlug(params.slug);
     const title = `${slug

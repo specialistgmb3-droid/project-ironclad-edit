@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { LocationDetailPage } from "@/pages/LocationDetailPage";
 
-export const Route = createFileRoute("/locations/$slug")({
+export const Route = createFileRoute("/location/$slug")({
   head: ({ params }) => ({
     meta: [
       {

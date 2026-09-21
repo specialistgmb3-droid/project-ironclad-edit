@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { BlogDetailPage } from "@/pages/BlogDetailPage";
 
-export const Route = createFileRoute("/blogs/$slug")({
+export const Route = createFileRoute("/blog/$slug")({
   head: ({ params }) => ({
     meta: [
       {
