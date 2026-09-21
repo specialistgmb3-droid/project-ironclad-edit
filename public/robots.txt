@@ -1,14 +1,8 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
+# Robots.txt for Ironclad Commercial Floors Vancouver
+# https://ironcladcommercialfloors.ca/
 
 User-agent: *
 Allow: /
+
+# Canonical XML Sitemap & LLMs documentation
+Sitemap: https://ironcladcommercialfloors.ca/sitemap.xml
