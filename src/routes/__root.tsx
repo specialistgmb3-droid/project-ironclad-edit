@@ -77,11 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Ironclad Commercial Floors | Flooring Contractor Vancouver" },
+      {
+        name: "description",
+        content:
+          "Commercial Flooring Contractor in Vancouver, BC. Concrete polishing, industrial epoxy, carpet tile & vinyl flooring 24/7. Call (604) 540-3999.",
+      },
+      { name: "author", content: "Ironclad Commercial Floors" },
+      {
+        property: "og:title",
+        content: "Ironclad Commercial Floors | Flooring Contractor Vancouver",
+      },
+      {
+        property: "og:description",
+        content:
+          "Commercial Flooring Contractor in Vancouver, BC. Concrete polishing, industrial epoxy, carpet tile & vinyl flooring 24/7.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
